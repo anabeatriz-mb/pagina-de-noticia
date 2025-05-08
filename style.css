@@ -71,6 +71,11 @@ main {
     font-family: 'Merriweather';
     
 }
+h1:hover {
+    color: rgb(2, 2, 159);
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .text-princ p {
     font-family: 'Lora';
@@ -117,6 +122,11 @@ main {
 
 .text-sec1 h3 {
     font-family: 'Merriweather';
+}
+h3:hover {
+    color: rgb(2, 2, 159);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .text-sec1 p {
@@ -205,6 +215,11 @@ main {
 .text-nivel3 h4 {
     font-family: 'Merriweather';
 }
+h4:hover {
+    color: rgb(2, 2, 159);
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .text-nivel3 p {
     font-family: 'Lora';
@@ -225,7 +240,8 @@ main {
 
 
 a {
-    color: black;
+ color: black;
+ text-decoration: none;
 }
 
 
@@ -236,3 +252,4 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
